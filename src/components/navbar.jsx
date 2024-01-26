@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center gap-5 font-inter font-semibold">
           <img src={images.Logo} alt="Logo" style={{ width: "100%", height: "100%" }} />
         </div>
-        <div className="flex items-center gap-5 font-inter font-semibold">
+        <div className="flex items-center gap-12  font-inter font-semibold">
           {isDesktop ? (
             <>
               <a href="#" className="text-black font-medium hover:underline">
